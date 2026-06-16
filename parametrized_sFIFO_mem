@@ -1,0 +1,15 @@
+UVM Verification of a Parameterized Synchronous FIFO Memory IP
+SystemVerilog, UVM 1.2, Functional Coverage, Assertions, Scoreboarding, Coverage-Driven Verification
+
+• Designed and verified a parameterized synchronous FIFO memory IP supporting configurable data width and depth, synchronous read/write operations, occupancy tracking, and status flag generation (full/empty).
+• Developed a complete UVM verification environment including transaction classes, sequences, sequencer, driver, monitor, agent, scoreboard, coverage collector, environment, and test infrastructure.
+• Implemented transaction-level modeling (TLM) communication using analysis ports and exports to connect monitors, scoreboards, and coverage components.
+• Created self-checking scoreboards with golden-reference queue modeling to verify data ordering, integrity, and FIFO first-in-first-out behavior.
+• Developed constrained-random and directed test sequences to exercise normal operation, boundary conditions, simultaneous read/write activity, overflow prevention, underflow prevention, and reset scenarios.
+• Implemented functional coverage models with covergroups, cross coverage, occupancy-level tracking, full/empty state monitoring, operation-type coverage, and coverage-driven test development.
+• Applied coverage-closure techniques using targeted stimulus generation to improve functional coverage and validate corner-case scenarios.
+• Integrated SystemVerilog Assertions (SVA) to verify protocol correctness, flag behavior, reset handling, and illegal FIFO operation detection.
+• Performed root-cause debugging of timing, latency, synchronization, and monitor-sampling issues using waveform analysis and simulation logs.
+• Validated registered-output FIFO read latency behavior through monitor redesign and transaction-level timing correlation.
+• Executed regression testing and automated pass/fail checking using UVM reporting mechanisms and coverage metrics.
+• Demonstrated verification methodologies commonly used in ASIC and memory-controller verification environments, including scoreboarding, constrained-random verification, coverage-driven verification, assertions, and regression analysis.
